@@ -46,7 +46,7 @@ namespace MineSweeperV2
                                 int XofNeighbor = Neighbor[i, 0];
                                 int YofNeighbor = Neighbor[i, 1];
 
-                                bool isOutOfBound = XofNeighbor < 0s
+                                bool isOutOfBound = XofNeighbor < 0
                                     || XofNeighbor == MapHeight
                                     || YofNeighbor < 0
                                     || YofNeighbor == MapWidth;
